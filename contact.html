@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <title>Studio Sky</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="logo" width="200" class="logo"></a> 
+            <h1>Studio Sky</h1>
+            <div class="hamburger" onclick="toggleNav()">
+                <hr>
+                <hr>
+                <hr>
+                </div>
+            <nav class="toggle-nav"> 
+                <a href="about.html" class="about">About</a> 
+                <a href="contact.html" class="contact">Contact</a>
+                <a href="schedule.html" class="cs">Class Schedule</a>
+                <a href="classes.html" class="classes" >Classes</a> 
+                <a href="instructor.html" class="staff" >Instructors</a>
+            </nav>
+        </header>
+        <main>
+
+    <section class="newletter" id="newsletter">
+                <form>
+                    <h2>SIGN UP FOR THE NEWSLETTER</h2>
+                    <p>Want to stay in touch?
+                        Join our newsletter to have all the latest updates sent right to your email.   
+                        Never worry about missing any of our studio info ever again! </p>
+                <div class="newsletter" >
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <div class="actions">
+                        <input type="submit">
+                    </div>
+                </div>
+                </form>
+    </section>
+    <div class="location">
+        <h2>WHERE ARE WE?</h2>
+        <p>
+            The studio address is 415 1/2 S Barstow Street, Eau Claire, WI 54701.
+            We are on the 2nd floor above Houligans. Parking is a little crazy in downtown with all the road and building construction. We suggest planning extra time to find parking. When all the streets are full, there is a public parking lot not far from the studio on Graham Ave  
+        </p>
+        <img src="images/map.png" alt="map" width="600">
+    </div>
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <div class="email">
+            <p>info@studioskyec.com</p>
+        </div>
+        <div class="phone">
+            <p>(715) 598-6043</p>
+        </div>
+    </section>
+        </main>
+    </body>
